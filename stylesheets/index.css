@@ -3,9 +3,10 @@ body {
     background-color: black;
 }
 
-h2,h3,h4,p, nav {
+h2,h3,h4,p, nav, ul {
     color:white;
     text-align:center;
+    
 }
 
 #hello {
@@ -61,7 +62,7 @@ nav ul li a:hover {
 }
 
 #front-picture {
-    background-image: url("intro-back.JPG");
+    background-image: url("/images/winning.JPG");
     background-size: cover;
     height:0;
     padding-bottom: 56.25%;
@@ -96,6 +97,11 @@ footer {
 
 .nav-bottom-element {
     font-size: 20px;
+}
+
+#about-text {
+    list-style-type:none;
+    font-size: 32px;
 }
 
 @media screen and (max-width: 778px) {
