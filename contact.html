@@ -9,10 +9,22 @@
       <title>Contact Form</title>
    </head>
    <body>
+    <header>
+      <section class="nav-parent" id="top-section">
+        <nav class="nav-child" id="top-nav">
+          <ul>
+            <li class="navElement"><a href="index.html">Home</a></li>
+            <li class="navElement"><a href="index.html#about-header">About</a></li>
+            <li class="navElement"><a href="index.html#project-section">Projects</a></li>
+            <li class="navElement"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </section>
+    </header>>
       <form>
       <div class="container-fluid">
          <div class="row">
-            <div class="col-6 col-md-custom mx-auto">
+            <div class="col-4 col-md-custom mx-auto">
                <div class="card card-body p-1">
                   <div class="card-head">
                      <b> Contact Form</b>
@@ -22,24 +34,35 @@
                      <input class="form-control" id="name" type="text" required>
                   </div>
                   <div class="form-group col">
-                     <label class="form-check-label" for="email">Email</label>
+                     <label class="form-check-label" for="email">Subject</label>
                      <input id="Email" class="form-control" type="text" placeholder="name@example.com">
                   </div>
                   <div class="form-group col">
                      <label fclass="form-check-label" or="message">Message</label>
                      <textarea rows="3" class="form-control"></textarea>
                   </div>
-                  <div class="row justify-content-center p-3 ">
-                     <div class="col col-lg-auto p-1">
-                        <button type="button" class="btn btn-block btn-primary">Submit</button>
-                     </div>
-                     <div class="col col-lg-auto p-1">
-                        <button type="button" class="btn btn-block btn-secondary">Reset</button>
-                     </div>
+                  <div class="form-group col">
+                     <a href="mailto:giangdavis@gmail.com" class="btn btn-primary">Submit</a>
                   </div>
                </div>
             </div>
          </div>
       </div>
+          <hr>
+      <h4 id="foot-quote">Here to cater to your Computer software needs</h4>
+      <section class="nav-parent">
+        <nav class="nav-child" id="bottom-nav">
+          <ul>
+            <li class="nav-bottom-element"><a href="/index.html">Home</a></li>
+            <li class="nav-bottom-element"><a href="index.html#about-header">About</a></li>
+            <li class="nav-bottom-element"><a href="index.html#project-section">Projects</a></li>
+            <li class="nav-bottom-element"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav> 
+      </section>
+      <footer>
+          <a href="https://github.com/giangdavis"><img class="social-buttons" id="github-button" src="/images/Github.png" alt="GITHUB"></a>
+          <a href="https://linkedin.com/in/davis-giang"><img class="social-buttons" id="linkedin-button"src="/images/linkedin.png" alt="LINKEDIN"></a>
+      </footer>
    </body>
 </html>

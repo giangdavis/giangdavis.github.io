@@ -8,10 +8,70 @@ body {
     background-color: black;
 }
 
+nav ul li {
+    display:inline;
+    padding-left:7px;
+    padding-right:7px;
+}
+
+nav ul {
+    list-style-type: none;
+    display:inline;
+}
+
+.navElement {
+    font-size: 50px;
+}
+
+.navElement a, .nav-bottom-element a {
+    color:white;
+}
+
 .container-fluid {
     margin-top: 50px;
 }
 
+h4, nav, ul {
+    color:white;
+    text-align:center;
+}
+
+nav ul li a:hover {
+    color:#3279a8;
+}
+
+.nav-parent {
+    text-align:center;
+}
+
+.nav-child {
+    display:inline-block;
+}
+
+#foot-quote {
+    margin-top: 1%;
+    margin-bottom:1%;
+}
+
+#about-header {
+    margin-top:1%;
+    margin-bottom:1%;
+}
+
+#foot-quote {
+    font-size:30px;
+}
+footer {
+    margin-top: 1%;
+    text-align:center;
+}
+.social-buttons {
+    height:50px;
+}
+
+.nav-bottom-element {
+    font-size: 20px;
+}
 
 @media (min-width:1024px) {
     .col-lg-auto {

@@ -6,7 +6,6 @@ body {
 h2,h3,h4,p, nav, ul {
     color:white;
     text-align:center;
-    
 }
 
 .flex-container {
@@ -71,17 +70,16 @@ nav ul li a:hover {
     display:inline-block;
 }
 
-#front-picture {
+#winning-pic {
     background-image: url("/images/winning.JPG");
-    background-size: cover;
-    height:0;
-    padding-bottom: 56.25%;
+    background-size: 90%;
+    padding-bottom: 40.25%;
     box-sizing: border-box;
     width:100%;
-    background-position:30% top;
     background-repeat: no-repeat;
     background-color: black;
     background-attachment: fixed;
+    background-position: center;
 }
 
 #foot-quote {
